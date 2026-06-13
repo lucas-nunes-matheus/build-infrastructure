@@ -2,11 +2,23 @@
 
 Projeto IaC baseado no tutorial oficial [Create infrastructure](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-create), da HashiCorp. O objetivo é provisionar uma instância EC2 na AWS usando Terraform.
 
+## Video de demonstracao
+
+> **Assista ao walkthrough completo no YouTube:** [https://youtu.be/U_OV0E3CTgI](https://youtu.be/U_OV0E3CTgI)
+
+Este video apresenta a demonstracao do passo a passo executado, incluindo a organizacao dos arquivos Terraform, os comandos utilizados e a verificacao dos recursos provisionados/documentados.
+
 ## Arquivos do projeto
 
 - `terraform.tf`: define a versão mínima do Terraform e o provider `hashicorp/aws`.
 - `main.tf`: configura o provider AWS, consulta a AMI Ubuntu mais recente e declara a EC2 `aws_instance.app_server`.
 - `.terraform.lock.hcl`: trava a versão do provider usada no workspace.
+
+## Observacao sobre as imagens
+
+As imagens em `docs/img/*.svg` foram geradas com o [Carbon](https://carbon.now.sh/). Elas sao **ilustrativas** e foram criadas para deixar a documentacao mais bonita, organizada e apresentavel.
+
+Os conteudos exibidos nelas representam os comandos e resultados documentados neste README, mas nao devem ser interpretados como capturas brutas da tela. A finalidade principal e melhorar a apresentacao visual do passo a passo.
 
 ## Configuração criada
 
