@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360">
+  <rect width="920" height="360" fill="#f6f8fa"/>
+  <rect x="24" y="24" width="872" height="312" rx="8" fill="#0d1117"/>
+  <circle cx="52" cy="52" r="7" fill="#ff5f56"/>
+  <circle cx="76" cy="52" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="52" r="7" fill="#27c93f"/>
+  <text x="48" y="91" fill="#c9d1d9" font-family="monospace" font-size="18">$ terraform plan</text>
+  <text x="48" y="131" fill="#ff7b72" font-family="monospace" font-size="16">Error: Retrieving AWS account details</text>
+  <text x="48" y="161" fill="#ff7b72" font-family="monospace" font-size="16">validating provider credentials: retrieving caller identity from STS</text>
+  <text x="48" y="191" fill="#ff7b72" font-family="monospace" font-size="16">StatusCode: 403, api error ExpiredToken</text>
+  <text x="48" y="221" fill="#c9d1d9" font-family="monospace" font-size="16">The security token included in the request is expired.</text>
+  <text x="48" y="271" fill="#8b949e" font-family="monospace" font-size="16">Resultado: nao foi possivel atualizar o estado remoto nem executar novo apply.</text>
+  <text x="48" y="301" fill="#8b949e" font-family="monospace" font-size="16">Correcao necessaria: renovar credenciais AWS e repetir plan/apply.</text>
+</svg>

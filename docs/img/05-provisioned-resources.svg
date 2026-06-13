@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430">
+  <rect width="920" height="430" fill="#f6f8fa"/>
+  <rect x="24" y="24" width="872" height="382" rx="8" fill="#0d1117"/>
+  <circle cx="52" cy="52" r="7" fill="#ff5f56"/>
+  <circle cx="76" cy="52" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="52" r="7" fill="#27c93f"/>
+  <text x="48" y="91" fill="#c9d1d9" font-family="monospace" font-size="18">$ terraform show</text>
+  <text x="48" y="131" fill="#c9d1d9" font-family="monospace" font-size="16"># aws_instance.app_server:</text>
+  <text x="48" y="161" fill="#c9d1d9" font-family="monospace" font-size="16">id                 = "i-02e0695548dc6177c"</text>
+  <text x="48" y="191" fill="#c9d1d9" font-family="monospace" font-size="16">ami                = "ami-096f5760b00bcd95c"</text>
+  <text x="48" y="221" fill="#c9d1d9" font-family="monospace" font-size="16">instance_type      = "t2.micro"</text>
+  <text x="48" y="251" fill="#c9d1d9" font-family="monospace" font-size="16">availability_zone  = "us-west-2c"</text>
+  <text x="48" y="281" fill="#c9d1d9" font-family="monospace" font-size="16">instance_state     = "running"</text>
+  <text x="48" y="311" fill="#c9d1d9" font-family="monospace" font-size="16">public_ip          = "44.255.6.46"</text>
+  <text x="48" y="341" fill="#c9d1d9" font-family="monospace" font-size="16">private_ip         = "172.31.2.154"</text>
+  <text x="48" y="371" fill="#c9d1d9" font-family="monospace" font-size="16">tags               = { Name = "learn-terraform" }</text>
+</svg>

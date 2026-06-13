@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250">
+  <rect width="920" height="250" fill="#f6f8fa"/>
+  <rect x="24" y="24" width="872" height="202" rx="8" fill="#0d1117"/>
+  <circle cx="52" cy="52" r="7" fill="#ff5f56"/>
+  <circle cx="76" cy="52" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="52" r="7" fill="#27c93f"/>
+  <text x="48" y="91" fill="#c9d1d9" font-family="monospace" font-size="18">$ terraform state list</text>
+  <text x="48" y="131" fill="#c9d1d9" font-family="monospace" font-size="18">data.aws_ami.ubuntu</text>
+  <text x="48" y="166" fill="#c9d1d9" font-family="monospace" font-size="18">aws_instance.app_server</text>
+  <text x="48" y="201" fill="#8b949e" font-family="monospace" font-size="16">Estado local contem 1 data source e 1 recurso gerenciado.</text>
+</svg>

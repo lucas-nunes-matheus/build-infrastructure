@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="270" viewBox="0 0 920 270">
+  <rect width="920" height="270" fill="#f6f8fa"/>
+  <rect x="24" y="24" width="872" height="222" rx="8" fill="#0d1117"/>
+  <circle cx="52" cy="52" r="7" fill="#ff5f56"/>
+  <circle cx="76" cy="52" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="52" r="7" fill="#27c93f"/>
+  <text x="48" y="91" fill="#c9d1d9" font-family="monospace" font-size="18">$ terraform version</text>
+  <text x="48" y="126" fill="#c9d1d9" font-family="monospace" font-size="18">Terraform v1.15.3</text>
+  <text x="48" y="156" fill="#c9d1d9" font-family="monospace" font-size="18">on linux_amd64</text>
+  <text x="48" y="186" fill="#c9d1d9" font-family="monospace" font-size="18">+ provider registry.terraform.io/hashicorp/aws v5.100.0</text>
+  <text x="48" y="216" fill="#8b949e" font-family="monospace" font-size="16">Executado em 2026-06-15 23:13:54 -03</text>
+</svg>
